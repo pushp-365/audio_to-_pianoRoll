@@ -19,4 +19,5 @@ models/
 sample audio/
 
 outputs/
+externals/BTC/weights/*.pt
 
