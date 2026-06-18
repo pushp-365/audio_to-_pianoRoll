@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MusicMind AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<header>
+    <h1>🎵 MusicMind AI</h1>
+    <p>AI Powered Music Analysis Engine</p>
+</header>
+
+
+<section class="upload-card">
+
+    <h2>Upload Your Song</h2>
+
+    <input 
+        type="file"
+        id="audioFile"
+        accept=".mp3,.wav,.aac,.flac,.m4a"
+    >
+
+    <audio id="mainPlayer" controls></audio>
+
+</section>
+
+
+<section class="dashboard">
+
+
+    <div class="card">
+        <h3>Tempo</h3>
+        <span id="tempo">
+            -- BPM
+        </span>
+    </div>
+
+
+    <div class="card">
+        <h3>Key</h3>
+        <span id="key">
+            --
+        </span>
+    </div>
+
+
+    <div class="card">
+        <h3>Time Signature</h3>
+        <span>
+            4/4
+        </span>
+    </div>
+
+
+</section>
+
+
+<h2 class="title">
+    Instrument Separation
+</h2>
+
+
+<section class="stems">
+
+
+<div class="stem">
+<h3>🎤 Vocals</h3>
+<audio controls></audio>
+</div>
+
+
+<div class="stem">
+<h3>🥁 Drums</h3>
+<audio controls></audio>
+</div>
+
+
+<div class="stem">
+<h3>🎸 Bass</h3>
+<audio controls></audio>
+</div>
+
+
+<div class="stem">
+<h3>🎹 Other</h3>
+<audio controls></audio>
+</div>
+
+
+</section>
+
+
+
+<h2 class="title">
+    Live Chord Timeline
+</h2>
+
+
+<div id="chordTimeline">
+
+
+    <div class="chord active">
+        D
+    </div>
+
+
+    <div class="chord">
+        G
+    </div>
+
+
+    <div class="chord">
+        Em7
+    </div>
+
+
+    <div class="chord">
+        A
+    </div>
+
+
+    <div class="chord">
+        D
+    </div>
+
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

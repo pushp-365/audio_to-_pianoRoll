@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Audio files
+outputs/
+*.wav
+*.mp3
+*.aac
+
+# Environment variables
+.env
+
+# Models
+models/
+
+# sample files
+sample audio/
+
+outputs/
+
