@@ -1,25 +1,54 @@
+# ==========================
+# Core Scientific Computing
+# ==========================
 numpy
 scipy
-matplotlib
+scikit-learn
+
+# ==========================
+# Audio Processing
+# ==========================
 librosa
 soundfile
-pretty_midi
-mido
+ffmpeg-python
+audioread
 
+# ==========================
+# Deep Learning
+# ==========================
 torch
 torchaudio
 torchvision
 
+# ==========================
+# Music AI Models
+# ==========================
+demucs
 basic-pitch
 
-demucs
-
+# ==========================
+# MIDI & Music Theory
+# ==========================
+pretty_midi
+mido
 mir_eval
 
+# ==========================
+# Data Handling
+# ==========================
+pandas
+pyyaml
 tqdm
 
-pyyaml
+# ==========================
+# Visualization
+# ==========================
+matplotlib
+pillow
 
-scikit-learn
+# ==========================
+# Utility
+# ==========================
+requests
 
-jupyter
+              #Install FFmpeg and add it to your system PATH

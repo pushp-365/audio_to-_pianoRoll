@@ -1,6 +1,6 @@
-# 🎵 MusicMind AI
+# 🎵 HarmoniQ AI
 
-MusicMind AI is an AI-powered music analysis and transcription system.
+HarmoniQ AI is an AI-powered music analysis and transcription system.
 
 It takes an audio file and automatically extracts:
 
@@ -159,7 +159,7 @@ Future improvements:
 # Project Structure
 
 ```
-MusicMind/
+HarmoniQ AI/
 │
 ├── src/
 │   ├── analysis/
@@ -198,8 +198,8 @@ MusicMind/
 ## 1. Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/MusicMind.git
-cd MusicMind
+git clone https://github.com/pushp-365/audio_to-_pianoRoll
+
 ```
 
 ---
@@ -324,11 +324,14 @@ outputs/
 
 ## Author
 
-**Pushp Sharma**
+## Author
 
-B.Tech CSE Student  
-Bennett University
+HarmoniQ  AI was created and developed by **Pushp Sharma**.
 
+If you use this project in your research, academic work, or another project,
+please consider giving proper credit by mentioning the original repository.
+
+GitHub: https://github.com/pushp-365
 ---
 
 ⭐ If you like this project, consider giving it a star.
