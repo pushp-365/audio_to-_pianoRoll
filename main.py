@@ -168,7 +168,7 @@ outputs/
 │   ├── raw_notes.json
 │   └── clean_notes.json
 │
-└── piano/
+└── piano roll/
     ├── page_1.png
     ├── page_2.png
     └── ...
