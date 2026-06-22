@@ -15,8 +15,6 @@ outputs/
 # Models
 models/
 
-# sample files
-sample audio/
 
 outputs/
 externals/BTC/weights/*.pt
