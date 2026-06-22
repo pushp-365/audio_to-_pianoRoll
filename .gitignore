@@ -6,7 +6,6 @@ __pycache__/
 # Audio files
 outputs/
 *.wav
-*.mp3
 *.aac
 
 # Environment variables
